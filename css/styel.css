@@ -1,0 +1,688 @@
+:root {
+    --main-color: #e65f78;
+}
+
+/* start navbar */
+.navbar-nav .nav-link.active {
+    color: var(--main-color);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+}
+
+@media (max-width:767px) {
+    .smoli {
+        background-color: white !important;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .smoli .nav-item a {
+        color: black;
+    }
+
+}
+
+/* End navbar */
+/* start header */
+.header {
+    background-image: url(../image/header-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.644);
+    height: 100%;
+    width: 100%;
+
+}
+.heder-contant {
+    /* margin: 540px; */
+    /* width: 100%; */
+    max-width: 500px;
+}
+.text {
+    font-size: 1.5rem;
+}
+.move {
+    position: relative;
+}
+.move::after {
+    content: "";
+    position: absolute;
+    animation: typing 15s infinite;
+    left: 15%;
+}
+@keyframes typing {
+    0% {
+        content: "A|";
+    }
+
+    1% {
+        content: "A |";
+    }
+
+    2% {
+        content: "A G|";
+    }
+
+    3% {
+        content: "A Gr|";
+    }
+
+    4% {
+        content: "A Gra|";
+    }
+
+    5% {
+        content: "A Grap|";
+    }
+
+    6% {
+        content: "A Graph|";
+    }
+
+    7% {
+        content: "A Graphi|";
+    }
+
+    8% {
+        content: "A Graphic|";
+    }
+
+    9% {
+        content: "A Graphic |";
+    }
+
+    10% {
+        content: "A Graphic D|";
+    }
+
+    11% {
+        content: "A Graphic De|";
+    }
+
+    13% {
+        content: "A Graphic Des|";
+    }
+
+    14% {
+        content: "A Graphic Desi|";
+    }
+
+    15% {
+        content: "A Graphic Desig|";
+    }
+
+    16% {
+        content: "A Graphic Design|";
+    }
+
+    17% {
+        content: "A Graphic Designe|";
+    }
+
+    18% {
+        content: "A Graphic Designer|";
+    }
+
+    19% {
+        content: "A Graphic Designer.|";
+    }
+
+    20% {
+        content: "A Graphic Designer.|";
+    }
+
+    21% {
+        content: "A Graphic Designer.|";
+    }
+
+    22% {
+        content: "A Graphic Designer|";
+    }
+
+    23% {
+        content: "A Graphic Designe|";
+    }
+
+    24% {
+        content: "A Graphic Design|";
+    }
+
+    25% {
+        content: "A Graphic Desig|";
+    }
+
+    25% {
+        content: "A Graphic Desi|";
+    }
+
+    26% {
+        content: "A Graphic Des|";
+    }
+
+    27% {
+        content: "A Graphic De|";
+    }
+
+    28% {
+        content: "A Graphic D|";
+    }
+
+    29% {
+        content: "A Graphic |";
+    }
+
+    30% {
+        content: "A Graphic|";
+    }
+
+    31% {
+        content: "A Graphi|";
+    }
+
+    32% {
+        content: "A Graph|";
+    }
+
+    33% {
+        content: "A Grap|";
+    }
+
+    34% {
+        content: "A Gra|";
+    }
+
+    35% {
+        content: "A Gr|";
+    }
+
+    36% {
+        content: "A G|";
+    }
+
+    37% {
+        content: "A |";
+    }
+
+    38% {
+        content: "A P|";
+    }
+
+    39% {
+        content: "A Ph|";
+    }
+
+    40% {
+        content: "A Pho|";
+    }
+
+    41% {
+        content: "A Phot|";
+    }
+
+    42% {
+        content: "A Photo|";
+    }
+
+    43% {
+        content: "A Photog|";
+    }
+
+    44% {
+        content: "A Photogr|";
+    }
+
+    45% {
+        content: "A Photogra|";
+    }
+
+    46% {
+        content: "A Photograp|";
+    }
+
+    47% {
+        content: "A Photograph|";
+    }
+
+    48% {
+        content: "A Photographe|";
+    }
+
+    49% {
+        content: "A Photographer|";
+    }
+
+    50% {
+        content: "A Photographer.|";
+    }
+
+    51% {
+        content: "A Photographer.|";
+    }
+
+    52% {
+        content: "A Photographer.|";
+    }
+
+    53% {
+        content: "A Photographer|";
+    }
+
+    54% {
+        content: "A Photographe|";
+    }
+
+    55% {
+        content: "A Photograph|";
+    }
+
+    56% {
+        content: "A Photograp|";
+    }
+
+    57% {
+        content: "A Photogra|";
+    }
+
+    58% {
+        content: "A Photogr|";
+    }
+
+    59% {
+        content: "A Photog|";
+    }
+
+    60% {
+        content: "A Photo|";
+    }
+
+    61% {
+        content: "A Phot|";
+    }
+
+    62% {
+        content: "A Pho|";
+    }
+
+    63% {
+        content: "A Ph|";
+    }
+
+    64% {
+        content: "A P|";
+    }
+
+    65% {
+        content: "A |";
+    }
+
+    66% {
+        content: "A|";
+    }
+
+    67% {
+        content: "|";
+    }
+
+    68% {
+        content: "K|";
+    }
+
+    69% {
+        content: "Ke|";
+    }
+
+    70% {
+        content: "Ker|";
+    }
+
+    71% {
+        content: "Kerr|";
+    }
+
+    72% {
+        content: "Kerri|";
+    }
+
+    73% {
+        content: "Kerri |";
+    }
+
+    74% {
+        content: "Kerri D|";
+    }
+
+    75% {
+        content: "Kerri De|";
+    }
+
+    76% {
+        content: "Kerri Deo|";
+    }
+
+    77% {
+        content: "Kerri Deo.|";
+    }
+
+    78% {
+        content: "Kerri Deo.|";
+    }
+
+    79% {
+        content: "Kerri Deo.|";
+    }
+
+    80% {
+        content: "Kerri Deo|";
+    }
+
+    81% {
+        content: "Kerri De|";
+    }
+
+    82% {
+        content: "Kerri D|";
+    }
+
+    83% {
+        content: "Kerri |";
+    }
+
+    84% {
+        content: "Kerri|";
+    }
+
+    85% {
+        content: "Kerr|";
+    }
+
+    86% {
+        content: "Ker|";
+    }
+
+    87% {
+        content: "Ke|";
+    }
+
+    88% {
+        content: "K|";
+    }
+
+    89% {
+        content: "|";
+    }
+
+    90% {
+        content: "|";
+    }
+
+    91% {
+        content: "|";
+    }
+
+    92% {
+        content: "|";
+    }
+
+    93% {
+        content: "|";
+    }
+
+    94% {
+        content: "|";
+    }
+
+    95% {
+        content: "|";
+    }
+
+    96% {
+        content: "|";
+    }
+
+    97% {
+        content: "|";
+    }
+
+    98% {
+        content: "|";
+    }
+
+    99% {
+        content: "|";
+    }
+
+    100% {
+        content: "|";
+    }
+}
+.cv {
+    text-transform: uppercase;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.cv:hover {
+    color: black;
+}
+
+.layer::after {
+    content: "";
+
+}
+.setting {
+    width: 40px;
+    height: 40px;
+    background-color: #2b2424;
+    position: fixed;
+    top: 20%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.scroll {
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-color);
+    position: fixed;
+    bottom: 20px;
+    border-radius: 6px;
+    right: 15px;
+}
+.move-ionc {
+    width: 35px;
+    position: absolute;
+    height: 60px;
+    /* background: tan; */
+    border: 2px solid white;
+    bottom: 100px;
+    left: 50%;
+    border-radius: 15px;
+    transform: translateX(-50%);
+    animation: move 1s infinite;
+}
+.move-ionc::before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@keyframes move {
+    0% {
+        bottom: 50px;
+    }
+    50% {
+        bottom: 100px;
+    }
+    100% {
+        bottom: 50px;
+    }
+}
+/* End header */
+/* start About */
+.w {
+    max-width: 100%;
+}
+.aboot {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.about-content {
+    max-width: 550px;
+}
+.about-content h3 span {
+    color: var(--main-color);
+}
+.ioncs i {
+    width: 2rem;
+    height: 2rem;
+    border: 3px solid rgba(51, 51, 51, 0.6);
+    border-radius: 50%;
+    /* padding: 10px; */
+    transition: all 1s;
+}
+.ioncs i:hover {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+/* End About */
+/* start  Services*/
+.Services {
+    background-color: #d8d8d8ad;
+}
+.chart {
+    color: var(--main-color);
+}
+.design {
+    position: relative;
+}
+.design::after {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 3px;
+    background: var(--main-color);
+    left: 50%;
+    bottom: -15px;
+    transform: translate(-50%);
+    transition: width 0.5s;
+}
+.col-one:hover .design::after {
+    width: 20%;
+}
+/* End  Services*/
+/* start Freelancer */
+.freelance {
+    background-color: white;
+}
+.HIRE {
+    border: none;
+    padding: 15px 40px;
+    margin-top: 20px;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    color: white;
+    transition: background-color 1s ;
+}
+.HIRE:hover {
+    background-color: hsl(349, 70%, 56%);
+}
+/* End Freelancer */
+/* stert clinet */
+.img {
+    border: 8px solid rgba(102, 102, 102, 0.225);
+}
+.carousel-indicators [data-bs-target]{
+    background-color: var(--main-color);
+}
+span {
+    /* color: black; */
+    /* font-size: 20px; */
+    font-weight: bold;
+}
+/* End clinet */
+/* start work */
+.nav-tabs .nav-link,.nav-tabs {
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 50px;
+    transition:  all .5s;
+}
+.nav-link {
+    padding: 0;
+}
+.nav {
+    justify-content: center;
+    align-items: center ;
+}
+.nav-tabs .nav-link.active {
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 15px;
+    font-size: 12px;
+    border-radius: 50px;
+}
+.nav-tabs .nav-link:hover {
+    /* padding: 5px 15px; */
+    /* font-size: 12px; */
+    border-radius: 50px;
+    color: white;
+    background-color: var(--main-color);
+}
+.inner {
+    background-color: rgba(0, 0, 0, 0.644);
+}
+.t-inner {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.work-layer {
+    opacity: 0;
+    transition: all .5s;
+}
+.work-item:hover .work-layer {
+    opacity: 1;
+}
+.work-text {
+    transition: all .5s;
+
+}
+.work-item:hover .work-text{
+    top: 0 !important;
+}
+img {
+    transition: all .5s;
+}
+.work-item:hover img {
+    transform: scale(1.5);
+}
+/* End work */
+/* start Blog */
+.Read {
+    text-decoration: none;
+}
+.By {
+    color: var(--main-color);
+}
+/* End Blog */
